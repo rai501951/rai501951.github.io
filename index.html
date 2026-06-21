@@ -3,23 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sandeep Kumar Rai</title>
+<title>Sandeep Kumar Rai — Postdoctoral Researcher | Harvard Medical School</title>
+<meta name="description" content="Sandeep Kumar Rai — Postdoctoral Researcher at Boston Children's Hospital & Harvard Medical School. Studying glycosaminoglycan landscapes, biomolecular condensates, and extracellular matrix biology.">
+<meta property="og:title" content="Sandeep Kumar Rai — Postdoctoral Researcher">
+<meta property="og:description" content="Studying organized glycosaminoglycan landscapes at cellular interfaces using single-molecule and super-resolution tools.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://skrrai.com">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sandeep Kumar Rai — Postdoctoral Researcher">
+<meta name="twitter:description" content="Biomolecular condensate biophysics meets extracellular matrix biology. Harvard Medical School.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #FAFAF8;
-  --text: #1a1a1a;
-  --text-mid: #3a3a3a;
-  --text-muted: #5a5a5a;
-  --text-light: #888;
-  --accent: #2B5F8A;
-  --accent-soft: #dce8f2;
-  --accent-pale: #eef4f9;
-  --accent-dark: #1d4060;
-  --warm: #c17f3e;
-  --warm-soft: #fdf3e7;
-  --border: #e0ddd8;
+  --bg: #F8F6F1;
+  --text: #1C1917;
+  --text-mid: #2C2520;
+  --text-muted: #78716C;
+  --text-light: #A09890;
+  --accent: #7F1D1D;
+  --accent-soft: #F2E0E0;
+  --accent-pale: #F9EFEF;
+  --accent-dark: #5C1414;
+  --warm: #A0522D;
+  --warm-soft: #FDF0E8;
+  --border: #DDD8D4;
   --card-bg: #ffffff;
   --serif: 'Cormorant Garamond', Georgia, serif;
   --sans: 'Manrope', -apple-system, sans-serif;
@@ -32,7 +40,7 @@ html{scroll-behavior:smooth;font-size:16px}
 body{font-family:var(--sans);color:var(--text);background:var(--bg);line-height:1.7;font-weight:400;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;overflow-x:hidden}
 
 /* NAV */
-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(250,250,248,0.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);transition:box-shadow .3s}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(248,246,241,0.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);transition:box-shadow .3s}
 nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.06)}
 .nav-inner{max-width:var(--max-w);margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:.75rem 1.5rem}
 .nav-name{font-family:var(--serif);font-size:1.15rem;font-weight:700;color:var(--text);text-decoration:none}
@@ -45,9 +53,9 @@ nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.06)}
 .hamburger span{display:block;width:22px;height:2px;background:var(--text);margin:5px 0;transition:.3s}
 
 /* HERO */
-.hero{min-height:100vh;display:flex;align-items:center;background:linear-gradient(160deg,#f0f4f8 0%,#fafaf8 40%,#f7f2ec 100%);padding:7rem 1.5rem 4rem;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;top:10%;right:-8%;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(43,95,138,.05) 0%,transparent 70%);pointer-events:none}
-.hero::after{content:'';position:absolute;bottom:-5%;left:10%;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(193,127,62,.04) 0%,transparent 70%);pointer-events:none}
+.hero{min-height:100vh;display:flex;align-items:center;background:linear-gradient(160deg,#F5EFEA 0%,#F8F6F1 40%,#F5F0E8 100%);padding:7rem 1.5rem 4rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:10%;right:-8%;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(127,29,29,.05) 0%,transparent 70%);pointer-events:none}
+.hero::after{content:'';position:absolute;bottom:-5%;left:10%;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(160,82,45,.04) 0%,transparent 70%);pointer-events:none}
 .hero-inner{max-width:var(--max-w);margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 240px;gap:3rem;align-items:center;position:relative;z-index:1}
 .hero-text h1{font-family:var(--serif);font-size:3.4rem;font-weight:700;line-height:1.1;color:var(--text);margin-bottom:.6rem;animation:fadeUp .8s ease both}
 .hero-text .subtitle{font-size:1.05rem;color:var(--accent);font-weight:500;margin-bottom:1.2rem;animation:fadeUp .8s .12s ease both}
@@ -60,7 +68,7 @@ nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.06)}
 .btn-outline{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
 .btn-outline:hover{background:var(--accent-soft)}
 .hero-photo{animation:fadeUp .8s .18s ease both}
-.photo-frame{width:220px;height:270px;border-radius:14px;overflow:hidden;border:3px solid #fff;box-shadow:0 12px 40px rgba(43,95,138,.1)}
+.photo-frame{width:220px;height:270px;border-radius:14px;overflow:hidden;border:3px solid #fff;box-shadow:0 12px 40px rgba(127,29,29,.08)}
 .photo-frame img{width:100%;height:100%;object-fit:cover;object-position:center top}
 
 /* SECTIONS */
@@ -70,7 +78,7 @@ section{padding:var(--section-gap) 1.5rem}
 .section-title{font-family:var(--serif);font-size:2.1rem;font-weight:700;color:var(--text);margin-bottom:.4rem;line-height:1.2}
 .section-subtitle{font-size:.9rem;color:var(--text-muted);margin-bottom:1.8rem;max-width:620px;line-height:1.7}
 .section-divider{width:36px;height:3px;background:var(--accent);border-radius:2px;margin-bottom:2rem}
-.alt-bg{background:#f5f3ef}
+.alt-bg{background:#F3EFE9}
 
 /* MY JOURNEY */
 .journey-narrative{max-width:700px}
@@ -130,6 +138,8 @@ section{padding:var(--section-gap) 1.5rem}
 .skill-list{list-style:none;display:flex;flex-direction:column;gap:.35rem}
 .skill-list li{font-size:.82rem;color:var(--text-muted);padding-left:1rem;position:relative}
 .skill-list li::before{content:'\203A';position:absolute;left:0;color:var(--accent);font-weight:700}
+a.subtle-link{color:inherit;text-decoration-color:var(--border);text-underline-offset:2px;transition:text-decoration-color .25s,color .25s}
+a.subtle-link:hover{color:var(--accent);text-decoration-color:var(--accent)}
 
 /* CONTACT */
 .contact-section{background:var(--text);color:#fff;padding:4rem 1.5rem}
@@ -159,9 +169,10 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
   .hero-text .bio{max-width:100%}
   .research-grid,.phd-grid,.skills-wrapper{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr 1fr}
+  .highlights-inner{grid-template-columns:repeat(2,1fr);gap:1rem}
   .nav-links{display:none}
   .hamburger{display:block}
-  .nav-links.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:rgba(250,250,248,.97);padding:1rem 1.5rem;border-bottom:1px solid var(--border);gap:.8rem}
+  .nav-links.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:rgba(248,246,241,.97);padding:1rem 1.5rem;border-bottom:1px solid var(--border);gap:.8rem}
   .section-title{font-size:1.6rem}
   section{padding:3.5rem 1.2rem}
   .hero{padding:6rem 1.2rem 3rem;min-height:auto}
@@ -197,10 +208,71 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
   .phd-card h3{font-size:.88rem}
   .timeline-item::before{left:-1.6rem;width:12px;height:12px}
   .timeline::before{left:5px}
+  .highlights{padding:1.5rem 1rem}
+  .highlights-inner{grid-template-columns:repeat(2,1fr);gap:.8rem}
+  .hl-item{padding:.8rem}
 }
+
+/* SCROLL PROGRESS BAR */
+.scroll-progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);z-index:200;width:0;transition:none}
+
+/* ACTIVE NAV LINK */
+.nav-links a.active{color:var(--accent)}
+.nav-links a.active::after{width:100%}
+
+/* HIGHLIGHTS STRIP */
+.highlights{background:var(--card-bg);border-bottom:1px solid var(--border);padding:2rem 1.5rem}
+.highlights-inner{max-width:var(--max-w);margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
+.hl-item{text-align:center;padding:.6rem .5rem}
+.hl-icon{width:36px;height:36px;margin:0 auto .5rem;border-radius:8px;background:var(--accent-pale);display:flex;align-items:center;justify-content:center;font-size:1rem}
+.hl-value{font-family:var(--serif);font-size:1.5rem;font-weight:700;color:var(--text)}
+.hl-label{font-size:.72rem;color:var(--text-muted);margin-top:.1rem}
+
+/* EXPERTISE TAGS */
+.tag-list{display:flex;flex-wrap:wrap;gap:.4rem}
+.tag{padding:.3rem .8rem;border-radius:20px;font-size:.76rem;font-weight:600;background:var(--accent-pale);color:var(--accent-dark);border:1px solid var(--accent-soft);transition:all .2s}
+.tag:hover{background:var(--accent-soft);transform:translateY(-1px)}
+
+/* ENHANCED CARD HOVERS */
+.research-card,.phd-card,.pub-item{transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s cubic-bezier(.16,1,.3,1),border-color .3s}
+
+/* DARK MODE TOGGLE */
+.theme-toggle{background:none;border:1px solid var(--border);cursor:pointer;color:var(--text-muted);font-size:.9rem;padding:.3rem .55rem;border-radius:6px;transition:all .2s;margin-left:.5rem;line-height:1}
+.theme-toggle:hover{background:var(--accent-pale);color:var(--accent)}
+
+/* DARK MODE */
+[data-theme="dark"]{
+  --bg:#1A1714;
+  --text:#E8E4DE;
+  --text-mid:#C8C0B8;
+  --text-muted:#9A918A;
+  --text-light:#706860;
+  --accent:#D4736C;
+  --accent-soft:#3A2020;
+  --accent-pale:#2A1818;
+  --accent-dark:#E8A09A;
+  --warm:#C88050;
+  --warm-soft:#2A1E14;
+  --border:#3A3530;
+  --card-bg:#242018;
+}
+[data-theme="dark"] nav{background:rgba(26,23,20,0.88)}
+[data-theme="dark"] .hero{background:linear-gradient(160deg,#1E1A14 0%,#1A1714 40%,#1E1810 100%)}
+[data-theme="dark"] .hero::before{background:radial-gradient(circle,rgba(212,115,108,.06) 0%,transparent 70%)}
+[data-theme="dark"] .hero::after{background:radial-gradient(circle,rgba(200,128,80,.04) 0%,transparent 70%)}
+[data-theme="dark"] .alt-bg{background:#1E1A14}
+[data-theme="dark"] .photo-frame{border-color:#3A3530;box-shadow:0 12px 40px rgba(0,0,0,.3)}
+[data-theme="dark"] .contact-section{background:#141210}
+[data-theme="dark"] footer{background:#141210}
+[data-theme="dark"] .badge-first{background:#1A2E1A;color:#6BCB6E}
+[data-theme="dark"] .badge-cofirst{background:#2E2414;color:#E8A050}
+[data-theme="dark"] .badge-review{background:#14202E;color:#68A8E0}
+[data-theme="dark"] .nav-links.open{background:rgba(26,23,20,.97)}
 </style>
 </head>
 <body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
 
 <nav id="navbar">
   <div class="nav-inner">
@@ -216,6 +288,7 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
       <li><a href="#expertise">Expertise</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">☀</button>
   </div>
 </nav>
 
@@ -270,15 +343,15 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
         chemistry, and mathematics were at <em>Madan Mohan Malviya PG College</em> in nearby town, Bhatpar Rani. 
         Science, at that stage, was still textbooks and exams &mdash; I hadn&rsquo;t yet seen what research 
         actually looked like. 
-        That changed when I moved to <em>IIT Delhi</em> for my Master&rsquo;s in Chemistry. For the first 
+        That changed when I moved to <em><a href="https://home.iitd.ac.in/" target="_blank" class="subtle-link">IIT Delhi</a></em> for my Master&rsquo;s in Chemistry. For the first 
         time, I stepped into a real research laboratory, saw how scientific questions get asked and answered, 
         and encountered the world of interdisciplinary science. The distance between a farming village in 
         eastern UP and a research lab in Delhi felt enormous &mdash; but crossing it only sharpened my 
         appetite for asking bigger questions.
       </p>
       <p>
-        That conviction led me to the <em>Indian Institute of Science Education and Research (IISER) Mohali</em> 
-        for my PhD, where I joined Prof. Samrat Mukhopadhyay&rsquo;s lab. Here, I discovered the world of 
+        That conviction led me to the <em><a href="https://www.iisermohali.ac.in/" target="_blank" class="subtle-link">Indian Institute of Science Education and Research (IISER) Mohali</a></em> 
+        for my PhD, where I joined <a href="https://www.mukhopadhyaylab.org/" target="_blank" class="subtle-link">Prof. Samrat Mukhopadhyay&rsquo;s lab</a>. Here, I discovered the world of 
         biomolecular condensates &mdash; dynamic, liquid-like assemblies of proteins and RNA that organize 
         cellular life but, when they go wrong, drive devastating neurodegenerative diseases. Using single-molecule 
         FRET, super-resolution microscopy, and Raman spectroscopy, I dissected how tau, prion protein, and 
@@ -289,8 +362,8 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
       <p>
         By the end of my PhD, I knew what I wanted next: to understand the biology of the cell surface, 
         where organized molecular assemblies mediate everything from signaling to immune recognition. 
-        In 2024, I moved to <em>Boston Children&rsquo;s Hospital</em> and <em>Harvard Medical School</em> 
-        to join Ryan Flynn&rsquo;s lab, where I&rsquo;m now studying cell-surface RNA biology, 
+        In 2024, I moved to <em><a href="https://www.childrenshospital.org/" target="_blank" class="subtle-link">Boston Children&rsquo;s Hospital</a></em> and <em>Harvard Medical School</em> 
+        to join <a href="https://hscrb.harvard.edu/labs/flynn-lab/" target="_blank" class="subtle-link">Ryan Flynn&rsquo;s lab</a>, where I&rsquo;m now studying cell-surface RNA biology, 
         membrane organization, and the emerging landscape of glycosaminoglycan-mediated signaling. This 
         training has given me a second intellectual home &mdash; in glycobiology, membrane biology, and 
         chemical biology &mdash; that I now integrate with my biophysics roots.
@@ -326,7 +399,7 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
     <h2 class="section-title">Current &amp; Doctoral Work</h2>
     <div class="section-divider"></div>
     
-    <p style="font-size:.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.1em;margin-bottom:1rem;">CURRENT &mdash; FLYNN LAB, BOSTON CHILDREN&rsquo;S HOSPITAL</p>
+    <p style="font-size:.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.1em;margin-bottom:1rem;">CURRENT &mdash; <a href="https://hscrb.harvard.edu/labs/flynn-lab/" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">FLYNN LAB</a>, <a href="https://www.childrenshospital.org/" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">BOSTON CHILDREN&rsquo;S HOSPITAL</a></p>
     <div class="research-grid" style="margin-bottom:2.5rem;">
       <div class="research-card">
         <h3>Cell-Surface RBP&ndash;HSPG Clusters &amp; Membrane Organization</h3>
@@ -341,7 +414,7 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
       </div>
     </div>
 
-    <p style="font-size:.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.1em;margin-bottom:1rem;">DOCTORAL WORK &mdash; THE MUKHOPADHYAY LAB, IISER MOHALI</p>
+    <p style="font-size:.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.1em;margin-bottom:1rem;">DOCTORAL WORK &mdash; <a href="https://www.mukhopadhyaylab.org/" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">THE MUKHOPADHYAY LAB</a>, <a href="https://www.iisermohali.ac.in/" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">IISER MOHALI</a></p>
     <div class="phd-grid">
       <div class="phd-card">
         <h3>Heterotypic Condensates &amp; Co-aggregation</h3>
@@ -377,7 +450,7 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
     <p class="section-label">Future Research Vision</p>
     <h2 class="section-title">Toward an Independent Research Program</h2>
     <div class="section-divider"></div>
-    <div style="background:linear-gradient(135deg,var(--accent-pale) 0%,#fafaf8 100%);border-left:4px solid var(--accent);border-radius:0 12px 12px 0;padding:1.8rem 2rem;margin-bottom:2.5rem;">
+    <div style="background:linear-gradient(135deg,var(--accent-pale) 0%,#F8F6F1 100%);border-left:4px solid var(--accent);border-radius:0 12px 12px 0;padding:1.8rem 2rem;margin-bottom:2.5rem;">
       <p style="font-family:var(--serif);font-size:1.2rem;font-style:italic;color:var(--accent-dark);line-height:1.6;font-weight:500;">
         &ldquo;How does the physical state and sulfation chemistry of glycosaminoglycan landscapes at cellular 
         interfaces &mdash; the cell surface, the perineuronal net, the extracellular matrix &mdash; gate the spreading 
@@ -426,19 +499,19 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
     <div class="section-divider"></div>
     <div class="pub-list">
       <div class="pub-item">
-        <p class="pub-journal">bioRxiv (Preprint) &bull; 2025</p>
-        <p class="pub-title">Catch and release of sialoglycoRNAs enables sequencing-based profiling across cellular and extracellular material</p>
-        <p class="pub-authors">Ge, R., Jeppesen, D. K., <strong>Rai, S. K.</strong>, Zhang, Q., Higginbotham, J. N., Coffey, R. J., &amp; Flynn, R. A.</p>
-        <div class="pub-meta">
-          <a href="https://doi.org/10.1101/2025.10.04.680438" target="_blank" class="pub-link">DOI &rarr;</a>
-        </div>
-      </div>
-      <div class="pub-item">
         <p class="pub-journal">Nature &bull; 2026</p>
         <p class="pub-title">GlycoRNA complexed with heparan sulfate regulates VEGF-A signalling</p>
         <p class="pub-authors">Chai, P., Kheiri, S., Kuo, A., Shah, J., Kageler, L., Ge, R., Perr, J., Porat, J., Lebedenko, C. G., Dias, J. M. L., Yankova, E., <strong>Rai, S. K.</strong>, Watkins, C. P., Hristov, P., Tzelepis, K., Hla, T., Raman, R., Calo, E., Esko, J. D., &amp; Flynn, R. A.</p>
         <div class="pub-meta">
           <a href="https://doi.org/10.1038/s41586-025-10052-8" target="_blank" class="pub-link">DOI &rarr;</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <p class="pub-journal">bioRxiv (Preprint) &bull; 2025</p>
+        <p class="pub-title">Catch and release of sialoglycoRNAs enables sequencing-based profiling across cellular and extracellular material</p>
+        <p class="pub-authors">Ge, R., Jeppesen, D. K., <strong>Rai, S. K.</strong>, Zhang, Q., Higginbotham, J. N., Coffey, R. J., &amp; Flynn, R. A.</p>
+        <div class="pub-meta">
+          <a href="https://doi.org/10.1101/2025.10.04.680438" target="_blank" class="pub-link">DOI &rarr;</a>
         </div>
       </div>
       <div class="pub-item">
@@ -451,12 +524,28 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
         </div>
       </div>
       <div class="pub-item">
+        <p class="pub-journal">J. Phys. Chem. Lett. &bull; 2024</p>
+        <p class="pub-title">Hydrogen-bonded network of water in phase-separated biomolecular condensates</p>
+        <p class="pub-authors">Joshi, A., Avni, A., Walimbe, A., <strong>Rai, S. K.</strong>, Sarkar, S., &amp; Mukhopadhyay, S.</p>
+        <div class="pub-meta">
+          <a href="https://doi.org/10.1021/acs.jpclett.4c01587" target="_blank" class="pub-link">DOI &rarr;</a>
+        </div>
+      </div>
+      <div class="pub-item">
         <p class="pub-journal">PNAS &bull; 2023</p>
         <p class="pub-title">Heterotypic electrostatic interactions control complex phase separation of tau and prion into multiphasic condensates and co-aggregates</p>
         <p class="pub-authors"><strong>Rai, S. K.</strong>, Khanna, R., Avni, A., &amp; Mukhopadhyay, S.</p>
         <div class="pub-meta">
           <span class="pub-badge badge-first">First Author</span>
           <a href="https://doi.org/10.1073/pnas.2216338120" target="_blank" class="pub-link">DOI &rarr;</a>
+        </div>
+      </div>
+      <div class="pub-item">
+        <p class="pub-journal">Nature Communications &bull; 2023</p>
+        <p class="pub-title">Single-molecule FRET unmasks structural subpopulations and crucial molecular events during FUS low-complexity domain phase separation</p>
+        <p class="pub-authors">Joshi, A., Walimbe, A., Avni, A., <strong>Rai, S. K.</strong>, Arora, L., Sarkar, S., &amp; Mukhopadhyay, S.</p>
+        <div class="pub-meta">
+          <a href="https://doi.org/10.1038/s41467-023-43166-w" target="_blank" class="pub-link">DOI &rarr;</a>
         </div>
       </div>
       <div class="pub-item">
@@ -474,22 +563,6 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
         <div class="pub-meta">
           <span class="pub-badge badge-cofirst">Co-First Author</span>
           <a href="https://doi.org/10.1073/pnas.2100968118" target="_blank" class="pub-link">DOI &rarr;</a>
-        </div>
-      </div>
-      <div class="pub-item">
-        <p class="pub-journal">Nature Communications &bull; 2023</p>
-        <p class="pub-title">Single-molecule FRET unmasks structural subpopulations and crucial molecular events during FUS low-complexity domain phase separation</p>
-        <p class="pub-authors">Joshi, A., Walimbe, A., Avni, A., <strong>Rai, S. K.</strong>, Arora, L., Sarkar, S., &amp; Mukhopadhyay, S.</p>
-        <div class="pub-meta">
-          <a href="https://doi.org/10.1038/s41467-023-43166-w" target="_blank" class="pub-link">DOI &rarr;</a>
-        </div>
-      </div>
-      <div class="pub-item">
-        <p class="pub-journal">J. Phys. Chem. Lett. &bull; 2024</p>
-        <p class="pub-title">Hydrogen-bonded network of water in phase-separated biomolecular condensates</p>
-        <p class="pub-authors">Joshi, A., Avni, A., Walimbe, A., <strong>Rai, S. K.</strong>, Sarkar, S., &amp; Mukhopadhyay, S.</p>
-        <div class="pub-meta">
-          <a href="https://doi.org/10.1021/acs.jpclett.4c01587" target="_blank" class="pub-link">DOI &rarr;</a>
         </div>
       </div>
       <div class="pub-item" style="border-left:3px solid var(--accent);">
@@ -520,19 +593,19 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
       <div class="timeline-item">
         <p class="timeline-date">2024 &ndash; Present</p>
         <p class="timeline-role">Postdoctoral Researcher</p>
-        <p class="timeline-place">Boston Children&rsquo;s Hospital &mdash; Ryan Flynn Lab</p>
+        <p class="timeline-place"><a href="https://www.childrenshospital.org/" target="_blank" class="subtle-link">Boston Children&rsquo;s Hospital</a> &mdash; <a href="https://hscrb.harvard.edu/labs/flynn-lab/" target="_blank" class="subtle-link">Ryan Flynn Lab</a></p>
         <p class="timeline-detail">Cell-surface RBP&ndash;HSPG clusters, membrane organization, chemical biology &amp; glycobiology</p>
       </div>
       <div class="timeline-item">
         <p class="timeline-date">2018 &ndash; 2024</p>
         <p class="timeline-role">Ph.D. in Molecular Biophysics</p>
-        <p class="timeline-place">IISER Mohali, India &mdash; Samrat Mukhopadhyay Lab</p>
+        <p class="timeline-place"><a href="https://www.iisermohali.ac.in/" target="_blank" class="subtle-link">IISER Mohali</a>, India &mdash; <a href="https://www.mukhopadhyaylab.org/" target="_blank" class="subtle-link">Samrat Mukhopadhyay Lab</a></p>
         <p class="timeline-detail">Biomolecular condensates, IDP phase separation &amp; neurodegeneration</p>
       </div>
       <div class="timeline-item">
         <p class="timeline-date">2016 &ndash; 2018</p>
         <p class="timeline-role">M.Sc. in Chemistry</p>
-        <p class="timeline-place">Indian Institute of Technology (IIT) Delhi</p>
+        <p class="timeline-place"><a href="https://home.iitd.ac.in/" target="_blank" class="subtle-link">Indian Institute of Technology (IIT) Delhi</a></p>
         <p class="timeline-detail">Master&rsquo;s thesis with Prof. Shashank Deep</p>
       </div>
       <div class="timeline-item">
@@ -598,14 +671,49 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
 </section>
 
 <footer>
-  <p>&copy; 2026 Sandeep Kumar Rai</p>
+  <p>&copy; 2026 Sandeep Kumar Rai &middot; Boston, MA</p>
 </footer>
 
 <script>
-window.addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>40)});
+// Nav scroll shadow
+window.addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>40)},{passive:true});
+
+// Scroll reveal
 const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:.1});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+// Mobile menu close on link click
 document.querySelectorAll('.nav-links a').forEach(a=>{a.addEventListener('click',()=>document.querySelector('.nav-links').classList.remove('open'))});
+
+// Scroll progress bar
+const progressBar=document.getElementById('scrollProgress');
+window.addEventListener('scroll',()=>{
+  const h=document.documentElement.scrollHeight-window.innerHeight;
+  progressBar.style.width=(window.scrollY/h*100)+'%';
+},{passive:true});
+
+// Active nav scroll spy
+const sections=document.querySelectorAll('section[id]');
+const navLinks=document.querySelectorAll('.nav-links a');
+function updateActiveNav(){
+  let current='';
+  sections.forEach(s=>{if(window.scrollY>=s.offsetTop-120)current=s.getAttribute('id')});
+  navLinks.forEach(a=>{
+    a.classList.toggle('active',a.getAttribute('href')==='#'+current);
+  });
+}
+window.addEventListener('scroll',updateActiveNav,{passive:true});
+updateActiveNav();
+
+// Dark mode toggle
+const toggle=document.getElementById('themeToggle');
+const stored=localStorage.getItem('theme');
+if(stored==='dark'){document.documentElement.setAttribute('data-theme','dark');toggle.textContent='☾'}
+toggle.addEventListener('click',()=>{
+  const isDark=document.documentElement.getAttribute('data-theme')==='dark';
+  if(isDark){document.documentElement.removeAttribute('data-theme');toggle.textContent='☀';localStorage.setItem('theme','light')}
+  else{document.documentElement.setAttribute('data-theme','dark');toggle.textContent='☾';localStorage.setItem('theme','dark')}
+});
 </script>
 </body>
 </html>
