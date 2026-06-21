@@ -16,11 +16,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #F8F6F1;
+  --bg: #FDFCFA;
   --text: #1C1917;
   --text-mid: #2C2520;
-  --text-muted: #78716C;
-  --text-light: #A09890;
+  --text-muted: #5C5650;
+  --text-light: #8A837C;
   --accent: #7F1D1D;
   --accent-soft: #F2E0E0;
   --accent-pale: #F9EFEF;
@@ -40,7 +40,7 @@ html{scroll-behavior:smooth;font-size:16px}
 body{font-family:var(--sans);color:var(--text);background:var(--bg);line-height:1.7;font-weight:400;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;overflow-x:hidden}
 
 /* NAV */
-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(248,246,241,0.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);transition:box-shadow .3s}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(253,252,250,0.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);transition:box-shadow .3s}
 nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.06)}
 .nav-inner{max-width:var(--max-w);margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:.75rem 1.5rem}
 .nav-name{font-family:var(--serif);font-size:1.15rem;font-weight:700;color:var(--text);text-decoration:none}
@@ -53,7 +53,7 @@ nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.06)}
 .hamburger span{display:block;width:22px;height:2px;background:var(--text);margin:5px 0;transition:.3s}
 
 /* HERO */
-.hero{min-height:100vh;display:flex;align-items:center;background:linear-gradient(160deg,#F5EFEA 0%,#F8F6F1 40%,#F5F0E8 100%);padding:7rem 1.5rem 4rem;position:relative;overflow:hidden}
+.hero{min-height:100vh;display:flex;align-items:center;background:linear-gradient(160deg,#FAF8F4 0%,#FDFCFA 40%,#FAF7F2 100%);padding:7rem 1.5rem 4rem;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;top:10%;right:-8%;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(127,29,29,.05) 0%,transparent 70%);pointer-events:none}
 .hero::after{content:'';position:absolute;bottom:-5%;left:10%;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(160,82,45,.04) 0%,transparent 70%);pointer-events:none}
 .hero-inner{max-width:var(--max-w);margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 240px;gap:3rem;align-items:center;position:relative;z-index:1}
@@ -78,7 +78,7 @@ section{padding:var(--section-gap) 1.5rem}
 .section-title{font-family:var(--serif);font-size:2.1rem;font-weight:700;color:var(--text);margin-bottom:.4rem;line-height:1.2}
 .section-subtitle{font-size:.9rem;color:var(--text-muted);margin-bottom:1.8rem;max-width:620px;line-height:1.7}
 .section-divider{width:36px;height:3px;background:var(--accent);border-radius:2px;margin-bottom:2rem}
-.alt-bg{background:#F3EFE9}
+.alt-bg{background:#F7F5F0}
 
 /* MY JOURNEY */
 .journey-narrative{max-width:700px}
@@ -172,7 +172,7 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
   .highlights-inner{grid-template-columns:repeat(2,1fr);gap:1rem}
   .nav-links{display:none}
   .hamburger{display:block}
-  .nav-links.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:rgba(248,246,241,.97);padding:1rem 1.5rem;border-bottom:1px solid var(--border);gap:.8rem}
+  .nav-links.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:rgba(253,252,250,.97);padding:1rem 1.5rem;border-bottom:1px solid var(--border);gap:.8rem}
   .section-title{font-size:1.6rem}
   section{padding:3.5rem 1.2rem}
   .hero{padding:6rem 1.2rem 3rem;min-height:auto}
@@ -363,7 +363,7 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
         By the end of my PhD, I knew what I wanted next: to understand the biology of the cell surface, 
         where organized molecular assemblies mediate everything from signaling to immune recognition. 
         In 2024, I moved to <em><a href="https://www.childrenshospital.org/" target="_blank" class="subtle-link">Boston Children&rsquo;s Hospital</a></em> and <em>Harvard Medical School</em> 
-        to join <a href="https://hscrb.harvard.edu/labs/flynn-lab/" target="_blank" class="subtle-link">Ryan Flynn&rsquo;s lab</a>, where I&rsquo;m now studying cell-surface RNA biology, 
+        to join <a href="https://rafrna.com/" target="_blank" class="subtle-link">Ryan Flynn&rsquo;s lab</a>, where I&rsquo;m now studying cell-surface RNA biology, 
         membrane organization, and the emerging landscape of glycosaminoglycan-mediated signaling. This 
         training has given me a second intellectual home &mdash; in glycobiology, membrane biology, and 
         chemical biology &mdash; that I now integrate with my biophysics roots.
@@ -399,7 +399,7 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
     <h2 class="section-title">Current &amp; Doctoral Work</h2>
     <div class="section-divider"></div>
     
-    <p style="font-size:.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.1em;margin-bottom:1rem;">CURRENT &mdash; <a href="https://hscrb.harvard.edu/labs/flynn-lab/" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">FLYNN LAB</a>, <a href="https://www.childrenshospital.org/" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">BOSTON CHILDREN&rsquo;S HOSPITAL</a></p>
+    <p style="font-size:.85rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.1em;margin-bottom:1rem;">CURRENT &mdash; <a href="https://rafrna.com/" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">FLYNN LAB</a>, <a href="https://www.childrenshospital.org/" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">BOSTON CHILDREN&rsquo;S HOSPITAL</a></p>
     <div class="research-grid" style="margin-bottom:2.5rem;">
       <div class="research-card">
         <h3>Cell-Surface RBP&ndash;HSPG Clusters &amp; Membrane Organization</h3>
@@ -450,7 +450,7 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
     <p class="section-label">Future Research Vision</p>
     <h2 class="section-title">Toward an Independent Research Program</h2>
     <div class="section-divider"></div>
-    <div style="background:linear-gradient(135deg,var(--accent-pale) 0%,#F8F6F1 100%);border-left:4px solid var(--accent);border-radius:0 12px 12px 0;padding:1.8rem 2rem;margin-bottom:2.5rem;">
+    <div style="background:linear-gradient(135deg,var(--accent-pale) 0%,#FDFCFA 100%);border-left:4px solid var(--accent);border-radius:0 12px 12px 0;padding:1.8rem 2rem;margin-bottom:2.5rem;">
       <p style="font-family:var(--serif);font-size:1.2rem;font-style:italic;color:var(--accent-dark);line-height:1.6;font-weight:500;">
         &ldquo;How does the physical state and sulfation chemistry of glycosaminoglycan landscapes at cellular 
         interfaces &mdash; the cell surface, the perineuronal net, the extracellular matrix &mdash; gate the spreading 
@@ -593,7 +593,7 @@ footer p{font-size:.68rem;color:rgba(255,255,255,.25);letter-spacing:.04em}
       <div class="timeline-item">
         <p class="timeline-date">2024 &ndash; Present</p>
         <p class="timeline-role">Postdoctoral Researcher</p>
-        <p class="timeline-place"><a href="https://www.childrenshospital.org/" target="_blank" class="subtle-link">Boston Children&rsquo;s Hospital</a> &mdash; <a href="https://hscrb.harvard.edu/labs/flynn-lab/" target="_blank" class="subtle-link">Ryan Flynn Lab</a></p>
+        <p class="timeline-place"><a href="https://www.childrenshospital.org/" target="_blank" class="subtle-link">Boston Children&rsquo;s Hospital</a> &mdash; <a href="https://rafrna.com/" target="_blank" class="subtle-link">Ryan Flynn Lab</a></p>
         <p class="timeline-detail">Cell-surface RBP&ndash;HSPG clusters, membrane organization, chemical biology &amp; glycobiology</p>
       </div>
       <div class="timeline-item">
